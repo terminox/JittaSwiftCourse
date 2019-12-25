@@ -7,88 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E4AA47823B2644900560926 /* PlaylistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4AA47723B2644900560926 /* PlaylistsView.swift */; };
-		6E4AA47A23B26A9000560926 /* MediaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4AA47923B26A9000560926 /* MediaRow.swift */; };
-		6E4AA47E23B285F200560926 /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4AA47D23B285F200560926 /* MediaItem.swift */; };
-		6E4AA48023B2884D00560926 /* PlaylistRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4AA47F23B2884D00560926 /* PlaylistRow.swift */; };
-		6EB7611A23ACEE1700BD83AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB7611923ACEE1700BD83AB /* AppDelegate.swift */; };
-		6EB7611C23ACEE1700BD83AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB7611B23ACEE1700BD83AB /* SceneDelegate.swift */; };
-		6EB7611E23ACEE1700BD83AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB7611D23ACEE1700BD83AB /* ContentView.swift */; };
-		6EB7612023ACEE1800BD83AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB7611F23ACEE1800BD83AB /* Assets.xcassets */; };
-		6EB7612323ACEE1800BD83AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB7612223ACEE1800BD83AB /* Preview Assets.xcassets */; };
-		6EB7612623ACEE1800BD83AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EB7612423ACEE1800BD83AB /* LaunchScreen.storyboard */; };
-		6EB7613123ACEE1800BD83AB /* JittaMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB7613023ACEE1800BD83AB /* JittaMusicTests.swift */; };
-		6EB7613C23ACEE1800BD83AB /* JittaMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB7613B23ACEE1800BD83AB /* JittaMusicUITests.swift */; };
-		6EC9969423B0ABE100290AB2 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC9969323B0ABE100290AB2 /* MainTabView.swift */; };
-		6EC9969823B0AC1500290AB2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC9969723B0AC1500290AB2 /* HomeView.swift */; };
-		6EEDC03323B34D93000F46BB /* CreatePlaylistRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEDC03223B34D93000F46BB /* CreatePlaylistRow.swift */; };
-		6EEDC03523B35099000F46BB /* PlaylistStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEDC03423B35099000F46BB /* PlaylistStore.swift */; };
-		6EEDC03723B350A0000F46BB /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEDC03623B350A0000F46BB /* Playlist.swift */; };
-		6EEDC03923B3571F000F46BB /* CreatePlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEDC03823B3571F000F46BB /* CreatePlaylistView.swift */; };
-		6EEDC03C23B361CD000F46BB /* PlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEDC03B23B361CD000F46BB /* PlaylistView.swift */; };
+		6E91D07B23B36E91007599B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E91D07A23B36E91007599B6 /* AppDelegate.swift */; };
+		6E91D07D23B36E91007599B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E91D07C23B36E91007599B6 /* SceneDelegate.swift */; };
+		6E91D07F23B36E91007599B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E91D07E23B36E91007599B6 /* ContentView.swift */; };
+		6E91D08123B36E92007599B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E91D08023B36E92007599B6 /* Assets.xcassets */; };
+		6E91D08423B36E92007599B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E91D08323B36E92007599B6 /* Preview Assets.xcassets */; };
+		6E91D08723B36E92007599B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E91D08523B36E92007599B6 /* LaunchScreen.storyboard */; };
+		6E91D08F23B379BB007599B6 /* ImageDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E91D08E23B379BB007599B6 /* ImageDemoView.swift */; };
+		6E91D09123B37F6F007599B6 /* PlaylistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E91D09023B37F6F007599B6 /* PlaylistsView.swift */; };
+		6E91D09323B381DC007599B6 /* PlaylistsNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E91D09223B381DC007599B6 /* PlaylistsNavigationView.swift */; };
+		6E91D09523B387A6007599B6 /* PlaylistRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E91D09423B387A6007599B6 /* PlaylistRow.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		6EB7612D23ACEE1800BD83AB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6EB7610E23ACEE1700BD83AB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6EB7611523ACEE1700BD83AB;
-			remoteInfo = JittaMusic;
-		};
-		6EB7613823ACEE1800BD83AB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6EB7610E23ACEE1700BD83AB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6EB7611523ACEE1700BD83AB;
-			remoteInfo = JittaMusic;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		6E4AA47723B2644900560926 /* PlaylistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistsView.swift; sourceTree = "<group>"; };
-		6E4AA47923B26A9000560926 /* MediaRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaRow.swift; sourceTree = "<group>"; };
-		6E4AA47D23B285F200560926 /* MediaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
-		6E4AA47F23B2884D00560926 /* PlaylistRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistRow.swift; sourceTree = "<group>"; };
-		6EB7611623ACEE1700BD83AB /* JittaMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JittaMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EB7611923ACEE1700BD83AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6EB7611B23ACEE1700BD83AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6EB7611D23ACEE1700BD83AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		6EB7611F23ACEE1800BD83AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6EB7612223ACEE1800BD83AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6EB7612523ACEE1800BD83AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6EB7612723ACEE1800BD83AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6EB7612C23ACEE1800BD83AB /* JittaMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JittaMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EB7613023ACEE1800BD83AB /* JittaMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JittaMusicTests.swift; sourceTree = "<group>"; };
-		6EB7613223ACEE1800BD83AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6EB7613723ACEE1800BD83AB /* JittaMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JittaMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EB7613B23ACEE1800BD83AB /* JittaMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JittaMusicUITests.swift; sourceTree = "<group>"; };
-		6EB7613D23ACEE1800BD83AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6EC9969323B0ABE100290AB2 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
-		6EC9969723B0AC1500290AB2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		6EEDC03223B34D93000F46BB /* CreatePlaylistRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePlaylistRow.swift; sourceTree = "<group>"; };
-		6EEDC03423B35099000F46BB /* PlaylistStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistStore.swift; sourceTree = "<group>"; };
-		6EEDC03623B350A0000F46BB /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
-		6EEDC03823B3571F000F46BB /* CreatePlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePlaylistView.swift; sourceTree = "<group>"; };
-		6EEDC03B23B361CD000F46BB /* PlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistView.swift; sourceTree = "<group>"; };
+		6E91D07723B36E91007599B6 /* JittaMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JittaMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E91D07A23B36E91007599B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E91D07C23B36E91007599B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6E91D07E23B36E91007599B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6E91D08023B36E92007599B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E91D08323B36E92007599B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6E91D08623B36E92007599B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E91D08823B36E92007599B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E91D08E23B379BB007599B6 /* ImageDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDemoView.swift; sourceTree = "<group>"; };
+		6E91D09023B37F6F007599B6 /* PlaylistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistsView.swift; sourceTree = "<group>"; };
+		6E91D09223B381DC007599B6 /* PlaylistsNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistsNavigationView.swift; sourceTree = "<group>"; };
+		6E91D09423B387A6007599B6 /* PlaylistRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6EB7611323ACEE1700BD83AB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6EB7612923ACEE1800BD83AB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6EB7613423ACEE1800BD83AB /* Frameworks */ = {
+		6E91D07423B36E91007599B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -98,127 +45,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6E4AA47023B211F800560926 /* Views */ = {
+		6E91D06E23B36E91007599B6 = {
 			isa = PBXGroup;
 			children = (
-				6EC9969323B0ABE100290AB2 /* MainTabView.swift */,
-				6E4AA47323B2122500560926 /* Home */,
-				6E4AA47623B2640E00560926 /* Playlists */,
-				6EEDC03A23B361BC000F46BB /* Playlist */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		6E4AA47223B2121000560926 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				6EEDC03423B35099000F46BB /* PlaylistStore.swift */,
-				6EEDC03623B350A0000F46BB /* Playlist.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		6E4AA47323B2122500560926 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				6EC9969723B0AC1500290AB2 /* HomeView.swift */,
-				6E4AA47923B26A9000560926 /* MediaRow.swift */,
-				6E4AA47D23B285F200560926 /* MediaItem.swift */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		6E4AA47623B2640E00560926 /* Playlists */ = {
-			isa = PBXGroup;
-			children = (
-				6E4AA47723B2644900560926 /* PlaylistsView.swift */,
-				6E4AA47F23B2884D00560926 /* PlaylistRow.swift */,
-				6EEDC03223B34D93000F46BB /* CreatePlaylistRow.swift */,
-				6EEDC03823B3571F000F46BB /* CreatePlaylistView.swift */,
-			);
-			path = Playlists;
-			sourceTree = "<group>";
-		};
-		6EB7610D23ACEE1700BD83AB = {
-			isa = PBXGroup;
-			children = (
-				6EB7611823ACEE1700BD83AB /* JittaMusic */,
-				6EB7612F23ACEE1800BD83AB /* JittaMusicTests */,
-				6EB7613A23ACEE1800BD83AB /* JittaMusicUITests */,
-				6EB7611723ACEE1700BD83AB /* Products */,
+				6E91D07923B36E91007599B6 /* JittaMusic */,
+				6E91D07823B36E91007599B6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6EB7611723ACEE1700BD83AB /* Products */ = {
+		6E91D07823B36E91007599B6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6EB7611623ACEE1700BD83AB /* JittaMusic.app */,
-				6EB7612C23ACEE1800BD83AB /* JittaMusicTests.xctest */,
-				6EB7613723ACEE1800BD83AB /* JittaMusicUITests.xctest */,
+				6E91D07723B36E91007599B6 /* JittaMusic.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6EB7611823ACEE1700BD83AB /* JittaMusic */ = {
+		6E91D07923B36E91007599B6 /* JittaMusic */ = {
 			isa = PBXGroup;
 			children = (
-				6EB7612723ACEE1800BD83AB /* Info.plist */,
-				6EB7611923ACEE1700BD83AB /* AppDelegate.swift */,
-				6EB7611B23ACEE1700BD83AB /* SceneDelegate.swift */,
-				6EB7611D23ACEE1700BD83AB /* ContentView.swift */,
-				6EB7611F23ACEE1800BD83AB /* Assets.xcassets */,
-				6EB7612423ACEE1800BD83AB /* LaunchScreen.storyboard */,
-				6EB7612123ACEE1800BD83AB /* Preview Content */,
-				6E4AA47223B2121000560926 /* Models */,
-				6E4AA47023B211F800560926 /* Views */,
+				6E91D07A23B36E91007599B6 /* AppDelegate.swift */,
+				6E91D07C23B36E91007599B6 /* SceneDelegate.swift */,
+				6E91D07E23B36E91007599B6 /* ContentView.swift */,
+				6E91D08E23B379BB007599B6 /* ImageDemoView.swift */,
+				6E91D08023B36E92007599B6 /* Assets.xcassets */,
+				6E91D08523B36E92007599B6 /* LaunchScreen.storyboard */,
+				6E91D08823B36E92007599B6 /* Info.plist */,
+				6E91D08223B36E92007599B6 /* Preview Content */,
+				6E91D09023B37F6F007599B6 /* PlaylistsView.swift */,
+				6E91D09223B381DC007599B6 /* PlaylistsNavigationView.swift */,
+				6E91D09423B387A6007599B6 /* PlaylistRow.swift */,
 			);
 			path = JittaMusic;
 			sourceTree = "<group>";
 		};
-		6EB7612123ACEE1800BD83AB /* Preview Content */ = {
+		6E91D08223B36E92007599B6 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				6EB7612223ACEE1800BD83AB /* Preview Assets.xcassets */,
+				6E91D08323B36E92007599B6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		6EB7612F23ACEE1800BD83AB /* JittaMusicTests */ = {
-			isa = PBXGroup;
-			children = (
-				6EB7613023ACEE1800BD83AB /* JittaMusicTests.swift */,
-				6EB7613223ACEE1800BD83AB /* Info.plist */,
-			);
-			path = JittaMusicTests;
-			sourceTree = "<group>";
-		};
-		6EB7613A23ACEE1800BD83AB /* JittaMusicUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6EB7613B23ACEE1800BD83AB /* JittaMusicUITests.swift */,
-				6EB7613D23ACEE1800BD83AB /* Info.plist */,
-			);
-			path = JittaMusicUITests;
-			sourceTree = "<group>";
-		};
-		6EEDC03A23B361BC000F46BB /* Playlist */ = {
-			isa = PBXGroup;
-			children = (
-				6EEDC03B23B361CD000F46BB /* PlaylistView.swift */,
-			);
-			path = Playlist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6EB7611523ACEE1700BD83AB /* JittaMusic */ = {
+		6E91D07623B36E91007599B6 /* JittaMusic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6EB7614023ACEE1800BD83AB /* Build configuration list for PBXNativeTarget "JittaMusic" */;
+			buildConfigurationList = 6E91D08B23B36E92007599B6 /* Build configuration list for PBXNativeTarget "JittaMusic" */;
 			buildPhases = (
-				6EB7611223ACEE1700BD83AB /* Sources */,
-				6EB7611323ACEE1700BD83AB /* Frameworks */,
-				6EB7611423ACEE1700BD83AB /* Resources */,
+				6E91D07323B36E91007599B6 /* Sources */,
+				6E91D07423B36E91007599B6 /* Frameworks */,
+				6E91D07523B36E91007599B6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -226,69 +104,25 @@
 			);
 			name = JittaMusic;
 			productName = JittaMusic;
-			productReference = 6EB7611623ACEE1700BD83AB /* JittaMusic.app */;
+			productReference = 6E91D07723B36E91007599B6 /* JittaMusic.app */;
 			productType = "com.apple.product-type.application";
-		};
-		6EB7612B23ACEE1800BD83AB /* JittaMusicTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6EB7614323ACEE1800BD83AB /* Build configuration list for PBXNativeTarget "JittaMusicTests" */;
-			buildPhases = (
-				6EB7612823ACEE1800BD83AB /* Sources */,
-				6EB7612923ACEE1800BD83AB /* Frameworks */,
-				6EB7612A23ACEE1800BD83AB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6EB7612E23ACEE1800BD83AB /* PBXTargetDependency */,
-			);
-			name = JittaMusicTests;
-			productName = JittaMusicTests;
-			productReference = 6EB7612C23ACEE1800BD83AB /* JittaMusicTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		6EB7613623ACEE1800BD83AB /* JittaMusicUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6EB7614623ACEE1800BD83AB /* Build configuration list for PBXNativeTarget "JittaMusicUITests" */;
-			buildPhases = (
-				6EB7613323ACEE1800BD83AB /* Sources */,
-				6EB7613423ACEE1800BD83AB /* Frameworks */,
-				6EB7613523ACEE1800BD83AB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6EB7613923ACEE1800BD83AB /* PBXTargetDependency */,
-			);
-			name = JittaMusicUITests;
-			productName = JittaMusicUITests;
-			productReference = 6EB7613723ACEE1800BD83AB /* JittaMusicUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6EB7610E23ACEE1700BD83AB /* Project object */ = {
+		6E91D06F23B36E91007599B6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = Art;
 				TargetAttributes = {
-					6EB7611523ACEE1700BD83AB = {
+					6E91D07623B36E91007599B6 = {
 						CreatedOnToolsVersion = 11.3;
-					};
-					6EB7612B23ACEE1800BD83AB = {
-						CreatedOnToolsVersion = 11.3;
-						TestTargetID = 6EB7611523ACEE1700BD83AB;
-					};
-					6EB7613623ACEE1800BD83AB = {
-						CreatedOnToolsVersion = 11.3;
-						TestTargetID = 6EB7611523ACEE1700BD83AB;
 					};
 				};
 			};
-			buildConfigurationList = 6EB7611123ACEE1700BD83AB /* Build configuration list for PBXProject "JittaMusic" */;
+			buildConfigurationList = 6E91D07223B36E91007599B6 /* Build configuration list for PBXProject "JittaMusic" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -296,103 +130,51 @@
 				en,
 				Base,
 			);
-			mainGroup = 6EB7610D23ACEE1700BD83AB;
-			productRefGroup = 6EB7611723ACEE1700BD83AB /* Products */;
+			mainGroup = 6E91D06E23B36E91007599B6;
+			productRefGroup = 6E91D07823B36E91007599B6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6EB7611523ACEE1700BD83AB /* JittaMusic */,
-				6EB7612B23ACEE1800BD83AB /* JittaMusicTests */,
-				6EB7613623ACEE1800BD83AB /* JittaMusicUITests */,
+				6E91D07623B36E91007599B6 /* JittaMusic */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6EB7611423ACEE1700BD83AB /* Resources */ = {
+		6E91D07523B36E91007599B6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EB7612623ACEE1800BD83AB /* LaunchScreen.storyboard in Resources */,
-				6EB7612323ACEE1800BD83AB /* Preview Assets.xcassets in Resources */,
-				6EB7612023ACEE1800BD83AB /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6EB7612A23ACEE1800BD83AB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6EB7613523ACEE1800BD83AB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				6E91D08723B36E92007599B6 /* LaunchScreen.storyboard in Resources */,
+				6E91D08423B36E92007599B6 /* Preview Assets.xcassets in Resources */,
+				6E91D08123B36E92007599B6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6EB7611223ACEE1700BD83AB /* Sources */ = {
+		6E91D07323B36E91007599B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EEDC03523B35099000F46BB /* PlaylistStore.swift in Sources */,
-				6E4AA47823B2644900560926 /* PlaylistsView.swift in Sources */,
-				6E4AA47E23B285F200560926 /* MediaItem.swift in Sources */,
-				6EEDC03323B34D93000F46BB /* CreatePlaylistRow.swift in Sources */,
-				6EB7611A23ACEE1700BD83AB /* AppDelegate.swift in Sources */,
-				6EC9969823B0AC1500290AB2 /* HomeView.swift in Sources */,
-				6EB7611C23ACEE1700BD83AB /* SceneDelegate.swift in Sources */,
-				6E4AA48023B2884D00560926 /* PlaylistRow.swift in Sources */,
-				6EEDC03C23B361CD000F46BB /* PlaylistView.swift in Sources */,
-				6E4AA47A23B26A9000560926 /* MediaRow.swift in Sources */,
-				6EB7611E23ACEE1700BD83AB /* ContentView.swift in Sources */,
-				6EC9969423B0ABE100290AB2 /* MainTabView.swift in Sources */,
-				6EEDC03923B3571F000F46BB /* CreatePlaylistView.swift in Sources */,
-				6EEDC03723B350A0000F46BB /* Playlist.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6EB7612823ACEE1800BD83AB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6EB7613123ACEE1800BD83AB /* JittaMusicTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6EB7613323ACEE1800BD83AB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6EB7613C23ACEE1800BD83AB /* JittaMusicUITests.swift in Sources */,
+				6E91D09523B387A6007599B6 /* PlaylistRow.swift in Sources */,
+				6E91D09123B37F6F007599B6 /* PlaylistsView.swift in Sources */,
+				6E91D07B23B36E91007599B6 /* AppDelegate.swift in Sources */,
+				6E91D08F23B379BB007599B6 /* ImageDemoView.swift in Sources */,
+				6E91D07D23B36E91007599B6 /* SceneDelegate.swift in Sources */,
+				6E91D09323B381DC007599B6 /* PlaylistsNavigationView.swift in Sources */,
+				6E91D07F23B36E91007599B6 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		6EB7612E23ACEE1800BD83AB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6EB7611523ACEE1700BD83AB /* JittaMusic */;
-			targetProxy = 6EB7612D23ACEE1800BD83AB /* PBXContainerItemProxy */;
-		};
-		6EB7613923ACEE1800BD83AB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6EB7611523ACEE1700BD83AB /* JittaMusic */;
-			targetProxy = 6EB7613823ACEE1800BD83AB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		6EB7612423ACEE1800BD83AB /* LaunchScreen.storyboard */ = {
+		6E91D08523B36E92007599B6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6EB7612523ACEE1800BD83AB /* Base */,
+				6E91D08623B36E92007599B6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -400,7 +182,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6EB7613E23ACEE1800BD83AB /* Debug */ = {
+		6E91D08923B36E92007599B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -460,7 +242,7 @@
 			};
 			name = Debug;
 		};
-		6EB7613F23ACEE1800BD83AB /* Release */ = {
+		6E91D08A23B36E92007599B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -514,166 +296,66 @@
 			};
 			name = Release;
 		};
-		6EB7614123ACEE1800BD83AB /* Debug */ = {
+		6E91D08C23B36E92007599B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"JittaMusic/Preview Content\"";
-				DEVELOPMENT_TEAM = 27A5C3B7M4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = JittaMusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.art.JittaMusic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.art2.JittaMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		6EB7614223ACEE1800BD83AB /* Release */ = {
+		6E91D08D23B36E92007599B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"JittaMusic/Preview Content\"";
-				DEVELOPMENT_TEAM = 27A5C3B7M4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = JittaMusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.art.JittaMusic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.art2.JittaMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		6EB7614423ACEE1800BD83AB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = JittaMusicTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.art.JittaMusicTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JittaMusic.app/JittaMusic";
-			};
-			name = Debug;
-		};
-		6EB7614523ACEE1800BD83AB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = JittaMusicTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.art.JittaMusicTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JittaMusic.app/JittaMusic";
-			};
-			name = Release;
-		};
-		6EB7614723ACEE1800BD83AB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = JittaMusicUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.art.JittaMusicUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = JittaMusic;
-			};
-			name = Debug;
-		};
-		6EB7614823ACEE1800BD83AB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = JittaMusicUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.art.JittaMusicUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = JittaMusic;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6EB7611123ACEE1700BD83AB /* Build configuration list for PBXProject "JittaMusic" */ = {
+		6E91D07223B36E91007599B6 /* Build configuration list for PBXProject "JittaMusic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6EB7613E23ACEE1800BD83AB /* Debug */,
-				6EB7613F23ACEE1800BD83AB /* Release */,
+				6E91D08923B36E92007599B6 /* Debug */,
+				6E91D08A23B36E92007599B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6EB7614023ACEE1800BD83AB /* Build configuration list for PBXNativeTarget "JittaMusic" */ = {
+		6E91D08B23B36E92007599B6 /* Build configuration list for PBXNativeTarget "JittaMusic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6EB7614123ACEE1800BD83AB /* Debug */,
-				6EB7614223ACEE1800BD83AB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6EB7614323ACEE1800BD83AB /* Build configuration list for PBXNativeTarget "JittaMusicTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6EB7614423ACEE1800BD83AB /* Debug */,
-				6EB7614523ACEE1800BD83AB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6EB7614623ACEE1800BD83AB /* Build configuration list for PBXNativeTarget "JittaMusicUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6EB7614723ACEE1800BD83AB /* Debug */,
-				6EB7614823ACEE1800BD83AB /* Release */,
+				6E91D08C23B36E92007599B6 /* Debug */,
+				6E91D08D23B36E92007599B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6EB7610E23ACEE1700BD83AB /* Project object */;
+	rootObject = 6E91D06F23B36E91007599B6 /* Project object */;
 }
